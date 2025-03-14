@@ -42,25 +42,25 @@ export const Hero = () => {
                 <div className="flex flex-col items-center">
                     <Image
                         src={profilepic}
-                        alt="Profile picture of Shantanu Tiwari"
+                        alt="Profile picture of Yash Chakerverti"
                         width={250}
                         className="rounded-full mx-auto"
                     />
-                    <motion.a
-                        href="https://github.com/YD-YC"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        whileHover={{ scale: 1.02 }}
-                        className="flex justify-center items-center m-1 gap-2 px-4 py-2 bg-gray-800 mb-4 rounded-full"
-                    >
-                        <Image
-                            src={obj}
-                            alt="Download CV icon"
-                            width={30}
-                            className="rounded-2xl mx-auto"
-                        />
-                        <p className="font-medium text-center">Github</p>
-                    </motion.a>
+                   <motion.a
+                   href="/RESUME.pdf" // Corrected path
+                   download="Yash_Chakerverti_Resume.pdf"
+                   whileHover={{ scale: 1.02 }}
+                   className="flex justify-center items-center m-1 gap-2 px-4 py-2 bg-gray-800 mb-4 rounded-full"
+               >
+                   <Image
+                       src={obj}
+                       alt="Download Resume icon"
+                       width={30}
+                       className="rounded-2xl mx-auto"
+                   />
+                   <p className="font-medium text-center">Download Resume</p>
+               </motion.a>
+               
                     <p className="flex justify-center font-medium max-w-xl text-center">
                         IoT & Hardware Developer and a Embedded Systems Enthusiast
                     </p>
