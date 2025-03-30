@@ -47,7 +47,7 @@ export const Hero = () => {
             className="rounded-full mx-auto"
           />
           <motion.a
-            href="/Resume/Yash_Chakerverti_Resume.pdf"
+            href="/Resume_yashchakerverti.pdf"
             download="Yash_Chakerverti_Resume.pdf"
             whileHover={{ scale: 1.02 }}
             className="flex justify-center items-center m-1 gap-2 px-4 py-2 bg-gray-800 mb-4 rounded-full"
