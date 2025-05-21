@@ -30,9 +30,9 @@ const metrics = [
     },
     {
         id: 5,
-        value: "3",
+        value: "4",
         label: "Internship Experience",
-        description: "Currently on my 3rd internship, gaining hands-on insights in embedded systems.",
+        description: "Currently on my 4th internship, gaining hands-on insights in embedded systems.",
     },
     {
         id: 6,

@@ -56,7 +56,7 @@ export const Contact = () => {
                             </div>
                         </div>
                         <div className="space-y-4">
-                            <p className="text-lg text-gray-300">Office</p>
+                            <p className="text-lg text-gray-300">Location</p>
                             <address className="text-xl not-italic leading-relaxed">
                                 Ghaziabad, Uttar Pradesh
                                 <br />

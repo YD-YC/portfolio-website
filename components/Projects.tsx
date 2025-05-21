@@ -9,7 +9,7 @@ import { motion, useMotionTemplate, useMotionValue, animate } from "framer-motio
 const projects = [
     {
         id: 1,
-        year: 2024,
+        year: 'May 2024',
         title: "Ardumist",
         description:
             "A portable humidifier using an Arduino UNO micro controller to maintain room humidity levels above 75%.",
@@ -17,7 +17,7 @@ const projects = [
     },
     {
         id: 2,
-        year: 2024,
+        year: 'Jan 2024',
         title: "Weather Monitor",
         description:
             "Designed and deployed an IoT weather station that continuously monitors room temperature and humidity using precision sensors.",
@@ -25,7 +25,7 @@ const projects = [
     },
     {
         id: 3,
-        year: 2024,
+        year: 'Feb 2024',
         title: "Automatic Plant Irrigation System",
         description:
             "Developed an automated irrigation system that uses an Arduino-based control board to continuously measure soil moisture via analog sensor.",
