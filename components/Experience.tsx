@@ -3,18 +3,29 @@
 import React from 'react';
 
 const experiences = [
-    { 
+ { 
         id: '01', 
-        company: 'Ripple Healthcare', 
-        position: 'Embedded Hardware Intern',
-        duration: 'March 2025 – Present',
+        company: 'Josh Technology Group', 
+        position: 'Software Quality Analyst',
+        duration: 'June 2025 – Present',
         type: 'Onsite (Gurgaon)',
         responsibilities: [
-            'Exploring innovative solutions in healthcare technology using embedded hardware platforms',
+            'Contributing to manual testing efforts by reviewing feature flows, executing test cases, and logging issues in coordination with the QA team',
+            'Investigating bugs, reproducing issues, and communicating findings to developers for timely resolution'
         ]
     },
     { 
         id: '02', 
+        company: 'Ripple Healthcare', 
+        position: 'Embedded Hardware Intern',
+        duration: 'May 2025 – June 2025',
+        type: 'Onsite (Gurgaon)',
+        responsibilities: [
+            'Explored the innovative solutions in healthcare technology using embedded hardware platforms',
+        ]
+    },
+    { 
+        id: '03', 
         company: 'Humble Bee @ Buzzworthy', 
         position: 'Embedded Intern',
         duration: 'March 2025 – May 2025',
@@ -25,7 +36,7 @@ const experiences = [
         ]
     },
     { 
-        id: '03', 
+        id: '04', 
         company: 'Sphere.ai', 
         position: 'IoT and Hardware Developer Intern',
         duration: 'Feb 2025 – March 2025',
@@ -36,7 +47,7 @@ const experiences = [
         ]
     },
     { 
-        id: '04', 
+        id: '05', 
         company: 'lvlAlpha Private Limited', 
         position: 'EEE System Design Associate',
         duration: 'Dec 2023 – Feb 2024',
@@ -61,7 +72,7 @@ const Experience = () => {
                             </h2>
                             <div className="w-16 h-1 bg-purple-500 mb-6"></div>
                             <p className="text-gray-300">
-                                My professional journey in embedded systems and hardware development.
+                                How I’m learning by doing one project, one role at a time.
                             </p>
                         </div>
                     </div>

@@ -18,10 +18,9 @@ const metrics = [
     },
     {
         id: 3,
-        value: "5+",
-        label: "Protocols Mastered",
-        description: "Expert in I2C, SPI, I2S, MQTT, BLE, and more for seamless connectivity.",
-    },
+        value: "4+",
+        label: "Testing Areas Covered",
+        description: "Manual UI testing, test case execution, bug reporting, and functional validation for production-ready features."},
     {
         id: 4,
         value: "6+",
@@ -30,16 +29,15 @@ const metrics = [
     },
     {
         id: 5,
-        value: "4",
+        value: "5",
         label: "Internship Experience",
-        description: "Currently on my 4th internship, gaining hands-on insights in embedded systems.",
+        description: "Hands-on exposure across 5 internships, covering embedded systems, IoT integration, and software quality assurance.",
     },
     {
         id: 6,
         value: "1+",
-        label: "Years in Embedded Systems",
-        description: "Specializing in firmware development and hardware integration.",
-    },
+        label: "Years in Core Tech",
+        description: "Consistent exposure to embedded development, sensor integration, and now web-based software testing."},
 ];
 
 

@@ -61,7 +61,7 @@ export const Hero = () => {
             <p className="font-medium text-center">Download Resume</p>
           </motion.a>
           <p className="flex justify-center font-medium max-w-xl text-center">
-            IoT & Hardware Developer and an Embedded Systems Enthusiast
+            Software Quality Analyst @ JTG | Embedded Systems & IoT Enthusiast
           </p>
           <p className="flex justify-center font-medium max-w-xl text-center mt-2">
             GATE 2025 Qualified in Electronics & Communication
